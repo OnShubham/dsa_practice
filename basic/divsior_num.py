@@ -1,0 +1,13 @@
+def devisor(num):
+    
+    res = []
+    
+    for i in range(1, num + 1):
+        
+        if num % i == 0:
+            res.append(i)
+        
+    return print(res)
+    
+num = 36
+devisor(num)
