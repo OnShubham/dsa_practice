@@ -11,3 +11,4 @@ def devisor(num):
     
 num = 36
 devisor(num)
+
