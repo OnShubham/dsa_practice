@@ -28,3 +28,40 @@ def max_arr(arr,n):
 arr = [5,4,3,2,5,6,3]
 n = len(arr)
 max_arr(arr,n)
+
+
+
+def find_largest(arr,n):
+    
+    max = arr[0]
+    
+    for i in range(1, n):
+        
+        if arr[i] > max:
+            max = arr[i]
+            
+    return print(max, "asds")
+
+
+arr = [5,4,3,2,5,6,3]
+n = len(arr)
+find_largest(arr,n)
+
+
+
+
+def find_the_largest(arr,n):
+    
+    max_val = arr[0]
+    
+    for i in range(1,n):
+        if arr[i] > max_val:
+            max_val = arr[i]
+            
+    return print(max_val)
+
+
+
+arr = [5,4,3,2,5,6,3]
+n = len(arr)
+find_the_largest(arr,n)
